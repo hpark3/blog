@@ -1,3 +1,8 @@
+```
+layout: single
+title: "my first blog post"
+```
+
 ## test
 
 **test bold**
