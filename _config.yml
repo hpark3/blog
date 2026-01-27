@@ -332,7 +332,7 @@ defaults:
 comments:
   provider: "utterances"
   utterances:
-    theme: "github-light" # 또는 github-dark
+    theme: "github-light"
     issue_term: "pathname"
     label: "comment"
-    repository: "hpark3/blog-comments" # 본인의 계정명/저장소명
+    repository: "hpark3/blog-comments" # 계정명/레포명 확인 완료!
