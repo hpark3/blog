@@ -22,8 +22,8 @@ title_separator          : "|"
 subtitle                 : "Learning, Solving, and Archiving" # site tagline that appears below site title in masthead
 name                     : "Helen"
 description              : "Business Analyst 입니다. 데이터를 공부합니다."
-url                      : "https://hpark.github.io/blog"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://hpark.github.io"
+baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -322,8 +322,17 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       show_date: true
       date_format: "%d %b, %Y"
+
+# Comments by Utterances
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # 또는 github-dark
+    issue_term: "pathname"
+    label: "comment"
+    repository: "hpark3/blog-comments" # 본인의 계정명/저장소명
